@@ -317,7 +317,7 @@ nav a.active {
 }
 @media screen and (min-width: 601px) {
     #custom {
-        min-width: 100px; max-width: 250px; margin-right: 5px;
+        min-width: 200px; max-width: 400px; margin-right: 5px;
     }
     #text-box2 {
         width: 100%;
