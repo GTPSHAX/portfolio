@@ -48,8 +48,6 @@ window.addEventListener("scroll", function () {
     // Cek jika elemen berada dalam viewport
     if (elementPosition.top < window.innerHeight && elementPosition.bottom >= 0) {
       element.classList.add("gas");
-    } else {
-      element.classList.remove("gas");
     }
   });
 });

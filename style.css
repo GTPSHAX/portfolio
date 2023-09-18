@@ -110,6 +110,14 @@ nav a.active {
     width: 300px;
 }
 
+.bg {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: -20px;
+    width: fit-content;
+}
+
 .text-box {
     /* background: linear-gradient(rgb(247, 247, 247),rgb(221, 221, 221)); */
     padding: 5px;
@@ -126,10 +134,9 @@ nav a.active {
 .text-box2 {
     /* background: linear-gradient(rgb(247, 247, 247),rgb(221, 221, 221)); */
     padding: 5px;
-    margin-top: -10px;
     border: 1px solid grey;
     border-radius: 10px;
-    width: fit-content;
+    margin-bottom: 30px;
 }
 .text-box2 img {
     width: 20px;
@@ -166,20 +173,18 @@ nav a.active {
     height: 10px;
 }
 .icon-box2 {
-    display: flex;
-    align-items: center;
-    padding: 8px;
     background: linear-gradient(100deg,rgb(194, 194, 194),rgb(255, 255, 255));
     border: 1px solid rgb(180, 180, 180);
-    margin-left: 5px;
-    margin-top: -18px;
     border-radius: 5px;
     box-shadow: 0 0 2px rgb(170, 170, 170);
-    width: 10px;
-    height: 10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
 }
-.icon-box2 h3 {
-    margin-left: 25px;
+.icon-box2 img {
+    margin: 0;
+    padding: 0;
+    width: 20px;
 }
 .icon-box:hover {
     background: linear-gradient(100deg,rgb(194, 194, 194),rgb(204, 204, 204));
@@ -274,7 +279,7 @@ nav a.active {
 }
 .garis-sklh {
     width: 3px;
-    height: 100px;
+    height: 80px;
     position: absolute;
     z-index: -1;
     background-color: grey;
@@ -310,7 +315,14 @@ nav a.active {
         width: 300px;
     }
 }
-
+@media screen and (min-width: 601px) {
+    #custom {
+        min-width: 100px; max-width: 250px; margin-right: 5px;
+    }
+    #text-box2 {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 600px) {
     .icon-img .img img {
         height: 200px;
@@ -382,5 +394,6 @@ nav a.active {
     }
     .resume {
         font-size: small;
+        display: block;
     }
 }
