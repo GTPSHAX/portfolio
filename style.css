@@ -121,6 +121,18 @@ nav a.active {
     margin-bottom: 50px;
 }
 
+.text-box2 {
+    /* background: linear-gradient(rgb(247, 247, 247),rgb(221, 221, 221)); */
+    padding: 5px;
+    margin-top: -10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.text-box2 img {
+    width: 20px;
+    margin-top: -8px;
+    margin-left: 6px;
+}
 .text-box .sosmed {
     display: flex;
     width: 100%;
@@ -149,6 +161,22 @@ nav a.active {
     box-shadow: 0 0 2px rgb(170, 170, 170);
     width: 10px;
     height: 10px;
+}
+.icon-box2 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: linear-gradient(100deg,rgb(194, 194, 194),rgb(255, 255, 255));
+    border: 1px solid rgb(180, 180, 180);
+    margin-left: 5px;
+    margin-top: -18px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(170, 170, 170);
+    width: 10px;
+    height: 10px;
+}
+.icon-box2 h3 {
+    margin-left: 25px;
 }
 .icon-box:hover {
     background: linear-gradient(100deg,rgb(194, 194, 194),rgb(204, 204, 204));
@@ -214,6 +242,38 @@ nav a.active {
 
 .dis {
     display: none;
+}
+.bulats {
+    display: flex;
+    align-items: center;
+}
+.bulats h5 {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.bulat {
+    width: 7px;
+    height: 7px;
+    background: linear-gradient(100deg,rgb(194, 194, 194),rgb(255, 255, 255));
+    border: 3px solid grey;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.lama-sklh {
+    font-size: 12px;
+    margin-left: 29px;
+    background-color: rgb(235, 235, 235);
+    width: fit-content;
+    padding: 2px;
+    border-left: 3px solid grey;
+}
+.garis-sklh {
+    width: 3px;
+    height: 30px;
+    background-color: grey;
+    margin-left: 15px;
+    margin-top: -20px;
 }
 @keyframes memanjang {
     from {
@@ -296,8 +356,8 @@ nav a.active {
         border-right: 1px solid rgb(216, 216, 216);
         border-left: 1px solid rgb(216, 216, 216);
         background-color: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(2px);
         border-radius: 0 0 10px 10px;
+        backdrop-filter: blur(2px);
         color: black;
     }
     .nav-hp ul {
