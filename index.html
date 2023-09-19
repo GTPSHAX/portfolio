@@ -15,14 +15,14 @@
         <h1>RAFIE</h1>
         <ul>
             <li><a href="#" data-target="home">About Me</a></li>
-            <li><a href="#" data-target="services">Services</a></li>
+            <li><a href="#" data-target="services">My Project</a></li>
             <li><a href="#" data-target="contact">Contact</a></li>
         </ul>
         <div class="dis">
             <div class="nav-hp">
                 <ul>
                     <li><a href="#" data-target="home">About Me</a></li>
-                    <li><a href="#" data-target="services">Services</a></li>
+                    <li><a href="#" data-target="services">My Project</a></li>
                     <li><a href="#" data-target="contact">Contact</a></li>
                 </ul>
             </div>
@@ -110,11 +110,11 @@
                         <h3 style="margin-left: 5px;">Skills</h3>
                     </div>
                     <p style="margin-top: 5px;">FrontEnd Dev</p>
-                    <div class="garis-skill"><p>70%</p><div class="garis-skill2" style="width: 70%; background-color: yellowgreen;"></div></div>
+                    <div class="garis-skill"><p>70%</p><div class="garis-skill2" style="width: 70%;"></div></div>
                     <p>BackEnd Dev</p>
-                    <div class="garis-skill"><p>1%</p><div class="garis-skill2" style="width: 5%; background-color: rgb(209, 2, 2);"></div></div>
+                    <div class="garis-skill"><p>1%</p><div class="garis-skill2" style="width: 5%;"></div></div>
                     <p>FullStack Dev</p>
-                    <div class="garis-skill"><p>0%</p><div class="garis-skill2" style="width: 0%; background-color: rgb(209, 2, 2);"></div></div>
+                    <div class="garis-skill"><p>25%</p><div class="garis-skill2" style="width: 25%;"></div></div>
                 </div>
             </div>
             <div class="text-box2">
@@ -128,33 +128,57 @@
                     <div class="bulat"></div>
                     <h5>Lua</h5>
                 </div>
-                <div class="garis-sklh"></div>
-                <div class="lama-sklh"><p>2022-2023</p></div>
+                <div class="garis-sklh" style="height: 90px;" id="spesial"></div>
+                <div class="lama-sklh" id="lama-sklh"><p>2022-2023</p></div>
+                <p class="text-desk">The first programming language I learned was Lua, I think Lua is very easy to learn. I learned Lua because I like making scripts for the game Growtopia.</p>
             
                 <div class="bulats" style="margin-top: -6px;">
                     <div class="bulat"></div>
-                    <h5>SMPN 03 KEBAKKRAMAT</h5>
+                    <h5>FrontEnd Developer</h5>
                 </div>
-                <div class="lama-sklh"><p>2020-2023</p></div>
-                <!-- <div class="garis-sklh"></div> -->
-                <div class="bulats" style="margin-top: -6px;">
-                    <div class="bulat"></div>
-                    <h5>SMK BK KARANGANYAR</h5>
-                </div>
-                <div class="lama-sklh"><p>2023 - Now</p></div>
+                <div class="lama-sklh" id="lama-sklh"><p>2020-2023</p></div>
+                <p class="text-desk">I think learning FrontEnd is very fun, especially when learning CSS, we can make our imaginations come true. I've been studying for 3 months and still continue to this day.</p>
             </div>
         </div>
         <!-- Konten halaman Home -->
     </div>
-    
+    <!-- services -->
     <div id="services" class="content">
-        <h1>Halaman Services</h1>
+        <div class="list">
+            <a href="https://gtpshax.github.io/AnimeStream/">
+                <div class="kotak">
+                    <img src="./Assets/as.png" alt="">
+                    <h4>AnimeStream</h4>
+                    <p>Mencoba membuat website streaming Anime.</p>
+                </div>
+            </a>
+            
+        </div>
+        
         <!-- Konten halaman Services -->
     </div>
     
     <div id="contact" class="content">
-        <h1>Halaman Contact</h1>
-        <!-- Konten halaman Contact -->
+        <div class="list">
+            <div class="kotak-">
+                <h4>Contact Me</h4>
+                <p style="text-align: start; font-style: italic; font-size: small; margin-top: 10px;">Input the name</p>
+                <input type="text" required>
+                <p style="text-align: start; font-style: italic; font-size: small; margin-top: 10px;">Input the message</p>
+                <textarea name="message" id="pesan" cols="100%" rows="10" required></textarea>
+                <button>Submit</button>
+                <div class="gc-or">
+                    <div class="gris"></div><h5>OR</h5><div class="gris"></div>
+                </div>
+                <a href="https://wa.me/6283865662983">
+                    <div class="icon-box">
+                        <img src="./Assets/wa.svg" alt="gambar">
+                    </div>
+                    <p id="hoki-dek">WhatsApp Me</p>
+                </a>
+            </div>
+            
+        </div>
     </div>
 
     <script src="script.js"></script>

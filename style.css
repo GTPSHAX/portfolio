@@ -210,6 +210,8 @@ nav a.active {
     color: white;
     font-size: 10px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 .garis-skill p {
     position: absolute;
@@ -221,7 +223,7 @@ nav a.active {
 .garis-skill2 {
     height: 10px;
     border-radius: 5px;
-    background-color: rgb(10, 10, 204);
+    background: linear-gradient(80deg,rgb(0, 14, 211),rgb(0, 152, 212));
     opacity: 0;
 }
 
@@ -277,6 +279,15 @@ nav a.active {
     border-left: 3px solid grey;
     margin-bottom: 10px;
 }
+#lama-sklh {
+  margin-bottom: 0;
+}
+.text-desk {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  width: 90%;
+}
 .garis-sklh {
     width: 3px;
     height: 80px;
@@ -285,6 +296,78 @@ nav a.active {
     background-color: grey;
     margin-left: 15px;
     margin-top: -7px;
+}
+.list {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 100px;
+}
+.kotak {
+    background: linear-gradient(80deg,rgb(248, 248, 248),rgb(236, 236, 236));
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid lavender;
+    box-shadow: 0 0 5px rgb(59, 59, 59);
+    margin: 5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.kotak- {
+    background: linear-gradient(80deg,rgb(248, 248, 248),rgb(236, 236, 236));
+    padding: 10px;
+    width: 80%;
+    border: 1px solid lavender;
+    box-shadow: 0 0 5px rgb(59, 59, 59);
+    margin: 5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.kotak:hover {
+    width: 310px;
+    height: 210px;
+}
+.kotak img {
+    width: 100%;
+    height: 70%;
+    box-shadow: 0 0 5px rgb(2, 2, 2);
+}
+.list a {
+    color: black;
+    text-decoration: none;
+}
+.gc-or {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gris {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+}
+.kotak- a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hoki-dek {
+    margin-left: 5px;
+    font-size: small;
+}
+input {
+    display: flex;
+    justify-content: left;
+}
+button {
+    padding: 5px;
+    margin-top: 5px;
 }
 @keyframes memanjang {
     from {
